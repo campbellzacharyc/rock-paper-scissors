@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+}
+
+div.game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.results {
+    position: absolute;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    top: 5%;
+    font-family: American Typewriter;
+    font-size: 20px;
+    font-style: bold;
+}
+
+button {
+    width: 150px;
+    height: 75px;
+}
+
+div.winner {
+
+}
